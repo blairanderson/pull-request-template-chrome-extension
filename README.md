@@ -15,4 +15,4 @@ WARNING: This extension is a big hack that was finished over an evening. Don't
 judge me based on this code.
 
 ## Chrome Download Link
-https://chrome.google.com/webstore/detail/purty/efclbmjddhkddbchknpahlddnpnadjlm
+https://chrome.google.com/webstore/detail/gprt-pull-request-templat/eopkdlenldnekjaakjbhbcffhacdlmil
