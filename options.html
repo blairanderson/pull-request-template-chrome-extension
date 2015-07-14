@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head><title>Options for PR templates</title></head>
+<head>
+  <title>Options for PR templates</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  #custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+
+  #custom-search-input input{border: 0;box-shadow: none;}
+  </style>
+</head>
 <body>
-  <div>
-    Type in the URL you want for a PR template.
-    <label for="url">URL</label>
-    <input id="url" name="url">
-    <button id="close">Close</button>
-    <button id="reset">Reset</button>
+  
+  <div class="container">
+  	<div class="row">
+      <div class="col-md-12">
+        <h2>Type in the URL you want for a PR template.</h2>
+        <div id="custom-search-input">
+          <div class="input-group col-md-12">
+            <input type="url" name="url" class="form-control input-lg" id="url" placeholder="url">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-xs-6">
+            <button class="btn btn-default btn-block" id="close">Close</button>
+          </div>
+          <div class="col-xs-6">
+            <button class="btn btn-default btn-block" id="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+  	</div>
   </div>
+
 </body>
 <script type="text/javascript" src="options.js"></script>
 </html>

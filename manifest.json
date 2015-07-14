@@ -1,7 +1,7 @@
 {
   "name": "GPRT - Pull Request Template",
   "description": "GitHub Pull Request Template Helper",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "version": "1.0",
   "icons": {
     "16": "icon16.png",

@@ -2,9 +2,6 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-
-
-
 // When the extension is installed or upgraded ...
 chrome.runtime.onInstalled.addListener(function() {
   // Replace all rules ...
@@ -30,7 +27,5 @@ chrome.runtime.onInstalled.addListener(function() {
 chrome.pageAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
   console.log('Turning ' + tab.url + ' red!');
-  chrome.tabs.executeScript({
-    code: "loadPullRequestTemplate()"
-  });
+  chrome.tabs.executeScript({code: "loadPullRequestTemplate()"});
 });
